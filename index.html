@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logoBox" >
+        <img src="./Image/footer-logo.png" alt="" style="filter: invert(1);" />
+      </div>
+      <div class="main-nav">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+            <ul>
+              <li>
+                <a href="#">Hotel Demo</a>
+                <ul>
+                  <li><a href="#">Classic</a></li>
+                  <li><a href="#">Minimal</a></li>
+                  <li><a href="#">Vector</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Tour Demo</a>
+                <ul>
+                  <li><a href="#">Modern</a></li>
+                  <li><a href="#">Trending</a></li>
+                  <li><a href="#">Vector Demo</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Flight Demo</a>
+                <ul>
+                  <li><a href="#">Modern</a></li>
+                  <li><a href="#">Classic</a></li>
+                  <li><a href="#">Map Demo</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Cab Demo</a>
+                <ul>
+                  <li><a href="#">Modern</a></li>
+                  <li><a href="#">Minimal</a></li>
+                  <li><a href="#">Left Sidebar</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Restaurant Demo</a>
+                <ul>
+                  <li><a href="#">Classic</a></li>
+                  <li><a href="#">Minimal</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Mix Demo</a>
+                <ul>
+                  <li><a href="#">Classic</a></li>
+                  <li><a href="#">Minimal</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Hotel</a>
+            <ul>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">Single Page</a></li>
+              <li><a href="#">Booking</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Tour</a>
+            <ul>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">Single Page</a></li>
+              <li><a href="#">Booking</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Flight</a>
+            <ul>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">Booking</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Cab</a>
+            <ul>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">Booking</a></li>
+              <li><a href="#">Single Detailing</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Restaurant</a>
+            <ul>
+              <li><a href="#">Listing</a></li>
+              <li><a href="#">Single Page</a></li>
+              <li><a href="#">Booking</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Pages</a></li>
+          <li>
+            <select>
+              <option value="">Use</option>
+              <option value="">Eur</option>
+              <option value="">Inr</option>
+              <option value="">Aud</option>
+            </select>
+          </li>
+          <li>
+            <select>
+              <option value="">Eng</option>
+              <option value="">Fre</option>
+              <option value="">Spa</option>
+              <option value="">Dut</option>
+            </select>
+          </li>
+          <li>
+            <i class="fas fa-user"></i>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="header-end">
+      <div class="textBox">
+        <p>HOTEL</p>
+        <select>
+          <option value="" class="one">Dubai</option>
+          <option value="">Dubai</option>
+          <option value="">Dubai</option>
+          <option value="">Dubai</option>
+        </select>
+      </div>
+      <div class="textBox">
+        <p>CHECK IN</p>
+        <input type="date" placeholder="07/07/2007" />
+      </div>
+      <div class="textBox">
+        <p>CHECK OUT</p>
+        <input type="date" value="07/07/2007" />
+      </div>
+      <div class="textBox">
+        <p>GUESTS</p>
+        <input type="number" value="1" min="1" />
+      </div>
+      <div class="textBox">
+        <a href="#">Search</a>
+      </div>
+    </div>
+    <section>
+      <div class="menuBox">
+        <a href="#" class="active">All</a>
+        <a href="#">Popular</a>
+        <a href="#">Latest</a>
+        <a href="#">Trend</a>
+      </div>
+      <div class="ImgBox">
+        <ol>
+          <li></li>
+          <li></li>
+        </ol>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <main class="blocks">
+      <div class="menuSaibar">
+        <div class="serchbox">
+          <form>
+            <input type="text" name="search" placeholder="Search.." />
+          </form>
+        </div>
+        <div class="lat">
+          <h3>Latest Filter</h3>
+          <img src="./Image/adjust.png" alt="" />
+        </div>
+        <div class="district">
+          <div class="textbox">
+            <p>District</p>
+            <i class="fad fa-plus-square"></i>
+          </div>
+          <div class="text">
+            <form>
+              <input type="checkbox" id="vehicle1" name="vehicle1" />
+              <label for="vehicle1">All</label><br />
+              <input type="checkbox" id="vehicle2" name="vehicle2" />
+              <label for="vehicle2"> La Defance</label><br />
+              <input type="checkbox" id="vehicle3" name="vehicle3" />
+              <label for="vehicle3"> Paris Center</label><br />
+              <input type="checkbox" id="vehicle4" name="vehicle4" />
+              <label for="vehicle4">Latin</label><br />
+            </form>
+          </div>
+        </div>
+        <div class="facility">
+          <div class="textbox">
+            <p>Facility</p>
+            <i class="fad fa-plus-square"></i>
+          </div>
+          <div class="text">
+            <form>
+              <input type="checkbox" id="vehicle1" name="vehicle1" />
+              <label for="vehicle1">Restaurant</label><br />
+              <input type="checkbox" id="vehicle2" name="vehicle2" />
+              <label for="vehicle2">Wifi</label><br />
+              <input type="checkbox" id="vehicle3" name="vehicle3" />
+              <label for="vehicle3">Spa & Salon</label><br />
+              <input type="checkbox" id="vehicle4" name="vehicle4" />
+              <label for="vehicle4">Pet Allowed</label><br />
+              <input type="checkbox" id="vehicle5" name="vehicle5" />
+              <label for="vehicle5">Parking</label><br />
+              <input type="checkbox" id="vehicle6" name="vehicle6" />
+              <label for="vehicle6">Swimming Pool</label><br />
+              <input type="checkbox" id="vehicle7" name="vehicle7" />
+              <label for="vehicle7">Fitness Center</label><br />
+            </form>
+          </div>
+        </div>
+        <div class="star">
+          <div class="textbox">
+            <p>Star Category</p>
+            <i class="fad fa-plus-square"></i>
+          </div>
+          <div class="text">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i><span>(4025)</span>
+          </div>
+          <div class="text">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i><span>(2012)</span>
+          </div>
+          <div class="text">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i><span>(25)</span>
+          </div>
+          <div class="text">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i><span>(1)</span>
+          </div>
+        </div>
+        <div class="price">
+          <div class="textbox">
+            <p>Price Range</p>
+            <i class="fad fa-plus-square"></i>
+          </div>
+          <div class="text"></div>
+        </div>
+        <div class="host">
+          <div class="textbox">
+            <p>Host Language</p>
+            <i class="fad fa-plus-square"></i>
+          </div>
+          <div class="text">
+            <form>
+              <input type="checkbox" id="vehicle1" name="vehicle1" />
+              <label for="vehicle1">English</label><br />
+              <input type="checkbox" id="vehicle2" name="vehicle2" />
+              <label for="vehicle2">Sign Language</label><br />
+              <input type="checkbox" id="vehicle3" name="vehicle3" />
+              <label for="vehicle3">Italiano</label><br />
+              <input type="checkbox" id="vehicle4" name="vehicle4" />
+              <label for="vehicle4">Suomi</label><br />
+              <input type="checkbox" id="vehicle5" name="vehicle5" />
+              <label for="vehicle5">Espanol</label><br />
+              <input type="checkbox" id="vehicle6" name="vehicle6" />
+              <label for="vehicle6">French</label><br />
+              <input type="checkbox" id="vehicle7" name="vehicle7" />
+              <label for="vehicle7">Arabic</label><br />
+            </form>
+          </div>
+        </div>
+        <div class="ends">
+          <div class="btn">
+            <span>i</span>
+            <p>Need Help</p>
+          </div>
+          <div class="phone">
+            <p>856-215-211</p>
+          </div>
+          <div class="weekbox">
+            <span>Monday</span>
+            <span>to</span>
+            <span>Friday</span>
+            <span>9:00am</span>
+            <span>-</span>
+            <span>7:30pm</span>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="card">
+          <div class="topbox1">
+            <h5>Hot Deal</h5>
+          </div>
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/1.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/2.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/3.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/4.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox1">
+            <h5>Certified</h5>
+          </div>
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/5.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/6.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox1">
+            <h5>Recommended</h5>
+          </div>
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/7.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/8.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="topbox">
+            <i class="fal fa-heart"></i>
+          </div>
+          <div class="imgbox">
+            <img src="./Image/9.jpg" alt="Rooms" />
+          </div>
+          <div class="headText">
+            <h5>The Venetian</h5>
+            <span>
+              <i class="far fa-map-marker-alt"></i>
+              NewYork</span
+            >
+          </div>
+          <div class="bodyText">
+            <p>
+              Lorem Ipsum is simply dummy text the printing Ipsum is simply
+              Lorem Ipsum is simply dummy text of the ..............
+            </p>
+          </div>
+          <div class="iconbox">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>26412 review</span>
+          </div>
+          <div class="endBox">
+            <span>$1300</span>
+            <span>$1245</span>
+            <a href="#">Swimming</a>
+            <a href="#">Parking</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="page">
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="rica">
+        <img src="./Image/footer-logo.png" alt="" />
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry....
+        </p>
+        <i class="fad fa-map-marker-alt"></i> <span>A-32, Albany, Newyork.</span
+        ><br /><br />
+        <i class="far fa-phone-alt"></i> <span> 518 - 457 - 5181</span
+        ><br /><br />
+        <i class="fal fa-envelope"></i> <span>Contact@Gmail.Com</span>
+      </div>
+      <div class="about">
+        <h2>About</h2>
+        <a href="#"> About Us</a>
+        <a href="#"> FAQ</a>
+        <a href="#"> Login</a>
+        <a href="#"> Register</a>
+        <a href="#"> Terms & Co.</a>
+        <a href="#"> Privacy</a>
+        <a href="#"> Support</a>
+      </div>
+      <div class="location">
+        <h2>Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4945541.406433895!2d-6.812930082618514!3d52.75357023711754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d0a98a6c1ed5df%3A0xf4e19525332d8ea8!2sAngliya%2C%20Buyuk%20Britaniya!5e0!3m2!1suz!2s!4v1626797571959!5m2!1suz!2s"
+          width="350"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="link">
+        <h2>Useful Links</h2>
+        <a href="#"> About Us</a>
+        <a href="#"> FAQ</a>
+        <a href="#"> Login</a>
+        <a href="#"> Register</a>
+        <a href="#"> Terms & Co.</a>
+        <a href="#"> Privacy</a>
+        <a href="#"> Support</a>
+      </div>
+      <div class="topics">
+        <h2>New Topics</h2>
+        <div class="footerText1">
+          <img src="./Image/footer.jpg" alt="" />
+          <p>
+            <span>Recent News</span>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem
+          </p>
+        </div>
+        <div class="footerText2">
+          <img src="./Image/footer1.jpg" alt="" />
+          <p>
+            <span>Recent News</span>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
